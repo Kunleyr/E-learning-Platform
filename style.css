@@ -6,6 +6,7 @@
     box-sizing:border-box;
     font-family: "Poppins", sans-serif;
     background-color: 0;
+    overflow-x: hidden; 
 }
 
 
@@ -944,6 +945,21 @@ footer{
 
 
 @media only screen and (max-width: 1250px) {
+
+    header{
+        width:100%;
+        height:70px;
+        padding:1rem;
+        background-color: #f1f1f3;
+        display:flex;
+        flex-direction:row;
+        justify-content: space-between;
+        align-items:center;
+        position: fixed;
+        
+        }
+        
+        
 
         .nav-item{
             width:100%;
